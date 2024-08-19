@@ -10,10 +10,15 @@ _And looking for a tavern where to drink their gold_
 
 The vindinium dot org website has been discontinued, and the domain now belongs to Internet parasites.
 
+### Requirements
+
+- Java 8
+- MongoDB 3.2
+
 ### Installation
 
 Feel free to install a local instance for your private tournaments.
-You need [sbt](http://www.scala-sbt.org/), a MongoDB instance running, and a Unix machine (only Linux has been tested, tho). Be careful, for the project to compile, you will need to use Java 8.
+You need [sbt](http://www.scala-sbt.org/), Java 8, a MongoDB 3.2 instance running, and a Unix machine (only Linux has been tested, tho).
 
 ```sh
 git clone git://github.com/ornicar/vindinium
