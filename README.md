@@ -1,10 +1,10 @@
-*Four legendary heroes were fighting for the land of Vindinium*
+_Four legendary heroes were fighting for the land of Vindinium_
 
-*Making their way in the dangerous woods*
+_Making their way in the dangerous woods_
 
-*Slashing goblins and stealing gold mines*
+_Slashing goblins and stealing gold mines_
 
-*And looking for a tavern where to drink their gold*
+_And looking for a tavern where to drink their gold_
 
 ### Warning
 
@@ -13,7 +13,7 @@ The vindinium dot org website has been discontinued, and the domain now belongs 
 ### Installation
 
 Feel free to install a local instance for your private tournaments.
-You need [sbt](http://www.scala-sbt.org/), a MongoDB instance running, and a Unix machine (only Linux has been tested, tho).
+You need [sbt](http://www.scala-sbt.org/), a MongoDB instance running, and a Unix machine (only Linux has been tested, tho). Be careful, for the project to compile, you will need to use Java 8.
 
 ```sh
 git clone git://github.com/ornicar/vindinium
@@ -21,8 +21,8 @@ cd vindinium
 cd client
 ./build.sh
 cd ..
-sbt compile
-sbt run
+sbt -sbt-version 0.13.16 compile
+sbt -sbt-version 0.13.16 run
 ```
 
 Vindinium is now running on `http://localhost:9000`.
